@@ -7,6 +7,7 @@ I will code a front-end and back-end calculator, that tells u how fast you type.
 ¤ THERE IS STILL A BUNCH OF STUFF TO DO
 
 INTERPRETATION OF THE JAVA CODE:
+- there are a few comments in the wpm.java file, which are in the Slovenian language FYI.
 - so as you can see there is 4 files (words.txt, allWPM.txt, wpm.java, methods.java)
 - words.txt is the file with 500 5 letter words
 - allWPM.txt is where the calculated words per minute are going to be stored
