@@ -74,4 +74,39 @@ public void countdown() throws InterruptedException
         writer.println(newWPM); //jih izpiše
         writer.close();
 	}
+	
+	public  void averageWPM() throws IOException{
+		
+        File file = new File("allWPM.txt");   
+        BufferedReader reader2 = new BufferedReader(new FileReader(file));
+
+        String wpms =  "";  //dodan String samo zato da je lažje izpisati besede
+        while(reader2.ready())    //while zanka prebere vse besede
+        {
+            wpms += reader2.readLine() + " ";
+        }
+
+        String parts2[] = wpms.split(" ");
+
+        /*for(int i = 0; i < parts2.length;i++) {
+            System.out.println("------>"  + parts2[i]);
+
+        }*/
+        //pretvori iz array String to array int
+        int stevila[] = new int[parts2.length];
+        for(int j=0; j<stevila.length;j++){
+            stevila[j] = Integer.parseInt(parts2[j]);
+        }
+        //izračuna kolikokrat smo pisali v program
+        int st= 0;
+        for(int i = 0; i<stevila.length;i++){
+            st = st + stevila[i];
+        }
+        //izračuna povprečje
+        double average = st/stevila.length;
+
+        System.out.println("Vaša povprečna hitrost pisanja: " + average);
+
+    }
+	
 }
