@@ -20,7 +20,7 @@ public void countdown() throws InterruptedException
     public void fileWordPrinter() throws IOException
     {
         
-        File file = new File("sskj.txt");   //najde file
+        File file = new File("words.txt");   //najde file
         BufferedReader reader = new BufferedReader(new FileReader(file));    //omogočimo branje datoteke sskj.txt
 
         String words =  "";  //dodan String samo zato da je lažje izpisati besede
