@@ -3,8 +3,8 @@ words per minute calculator
 
 I will code a front-end and back-end calculator, that tells u how fast you type.
 
-¤THE CODE IS NOT COMPLETEDE
-¤THERE IS STILL A BUNCH OF STUFF TO DO
+¤ THE CODE IS NOT COMPLETEDE
+¤ THERE IS STILL A BUNCH OF STUFF TO DO
 
 INTERPRETATION OF THE JAVA CODE:
 - so as you can see there is 4 files (words.txt, allWPM.txt, wpm.java, methods.java)
