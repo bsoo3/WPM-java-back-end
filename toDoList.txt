@@ -1,5 +1,7 @@
-to do:
+TO DO LIST:
 
--dodaj da ko nekdo napiše besedo narobe, da to opazi
--user se lahk logga in v nek server
--ceu front-end
+BACK-END:
+-notice when someone writes a word wrong
+
+FRONT-END:
+-everythinh :/
