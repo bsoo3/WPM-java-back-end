@@ -1,0 +1,5 @@
+to do:
+
+-dodaj da ko nekdo napiše besedo narobe, da to opazi
+-user se lahk logga in v nek server
+-ceu front-end
