@@ -25,5 +25,5 @@ UNDERSTANDING THE CODE
 
 Will be adding more as the summer begins.
 
-did not do shit
+did not do shit today
  
