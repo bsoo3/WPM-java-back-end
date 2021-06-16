@@ -23,7 +23,15 @@ UNDERSTANDING THE CODE
 - your wpm gets calculated, it prints it out and stores the wpm to the allWPM.txt file
 
 
-Will be adding more as the summer begins
+Will be adding more as the summer begins.
+..
+
+
+.
+.
+.
+.
+.
 
 
  
